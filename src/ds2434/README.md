@@ -16,7 +16,7 @@ It has been tested using an Arduino Uno developent board and can be compiled and
 
 This code requires a modified version of the awesome OneWireHub library by [Ingmar Inʒo Splitt (@orgua)](https://github.com/orgua) that you can find here: 
 
-[https://github.com/hrushka/OneWireHub](https://github.com/hrushka/OneWireHub)
+[https://github.com/thepolymatt/OneWireHub](https://github.com/thepolymatt/OneWireHub)
 
 Special Thanks: 
 -  Ingmar Inʒo Splitt (@orgua) for updates to the OneWireHub framework and initial code for the DS2434.
@@ -26,9 +26,9 @@ Special Thanks:
 
 ## Building the clone
 
-1. Download [the code](https://github.com/hrushka/701c.org/tree/main/src/ds2434/ds2434.ino) and open it in the Arduino IDE.
+1. Download [the code](https://github.com/thepolymatt/701c.org/tree/main/src/ds2434/ds2434.ino) and open it in the Arduino IDE.
    
-2. Download the modified version of the [OneWireHub](https://github.com/hrushka/OneWireHub) as a Zip file.
+2. Download the modified version of the [OneWireHub](https://github.com/thepolymatt/OneWireHub) as a Zip file.
    
 3. In your Arduino IDE, go into *Sketch → Include Library →  Add .ZIP Library...* and select the downloaded zip file.
    
@@ -51,7 +51,7 @@ Special Thanks:
 ## The PCB
 
 
-If you'd like to print your own PCB, you can [download the latest Gerber files here](https://github.com/hrushka/701c.org/tree/main/assets/battery/gerber). There is also a version that will work with the original DS2434 IC in case you happen to have one you've pulled form an original battery.
+If you'd like to print your own PCB, you can [download the latest Gerber files here](https://github.com/thepolymatt/701c.org/tree/main/assets/battery/gerber). There is also a version that will work with the original DS2434 IC in case you happen to have one you've pulled form an original battery.
 
 The PCB has been tested with the following surface mount packages:
 - [ATTINY85-20SF](https://www.findchips.com/search/ATTINY85-20SF)
